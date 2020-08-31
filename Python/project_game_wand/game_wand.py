@@ -15,6 +15,9 @@ def game():
 
 
 def request_of_user():
+    """
+    :return: Count of wand (int), First player name (str) and Second player name (str)
+    """
     while True:
         try:
             wand = int(input("How many wands you want "))
